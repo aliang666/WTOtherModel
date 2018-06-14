@@ -10,7 +10,7 @@
 #import "WTCameraViewController.h"
 #import "WTDefine.h"
 #import "WTUtil.h"
-@implementation Target_WebViewModel
+@implementation Target_OtherModel
 -(void)Action_CameraVC:(NSDictionary*)para {
     WTCameraViewController *camera = [[WTCameraViewController alloc] init];
     WTRootNavPush(camera);
