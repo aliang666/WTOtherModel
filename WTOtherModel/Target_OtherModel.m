@@ -13,6 +13,7 @@
 @implementation Target_OtherModel
 -(void)Action_CameraVC:(NSDictionary*)para {
     WTCameraViewController *camera = [[WTCameraViewController alloc] init];
+    camera.titleText = para[@"title"];
     WTRootNavPush(camera);
 }
 @end

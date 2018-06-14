@@ -20,6 +20,6 @@
 }
 
 - (void)setControllerTitle {
-    self.navBar.title = @"拍照翻译";
+    self.navBar.title = [WTUtil strRelay:self.titleText];
 }
 @end

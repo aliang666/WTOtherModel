@@ -9,5 +9,5 @@
 #import "WTBaseCore.h"
 
 @interface WTCameraViewController : WTViewController
-
+@property (nonatomic,copy) NSString *titleText;
 @end
